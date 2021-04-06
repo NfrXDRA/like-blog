@@ -7,7 +7,7 @@ blogId=clint.get_from_code(u).objectId
 comI=clint.get_from_code(u)
 comId=comI.path[1:comI.path.index('/')]
 try:
-	x=open('email.txt').read()
+	x=open('/sdcard/email.txt').read()
 except FileNotFoundError:
 	print('\033[1;31mcreate file email.txt')
 pv=x.split('\n')
