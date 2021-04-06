@@ -1,4 +1,4 @@
-# installh
+# install
 ```
 pkg install python
 pkg install git
