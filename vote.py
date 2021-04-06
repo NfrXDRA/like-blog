@@ -1,6 +1,6 @@
-import amino,os
+import amino,os,getpass
 clint=amino.Client()
-password=input('\033[1;32mpassword  :  ')
+password=getpass.getpass('\033[1;32mpassword  :  ')
 u=input('\033[1;35mblog url : ')
 co=input('\033[1;35mcomment : ')
 blogId=clint.get_from_code(u).objectId
